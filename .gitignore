@@ -1,0 +1,15 @@
+# Ignore specific files
+.env
+credentials.json
+
+# Ignore all files with a specific extension
+*.log
+*.pyc
+
+# Ignore directories
+node_modules/
+venv/
+
+# Ignore everything in a directory, except a specific file
+/uploads/*
+!/uploads/important.txt
